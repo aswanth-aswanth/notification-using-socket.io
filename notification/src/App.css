@@ -1,0 +1,43 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.app_name{
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.login{
+  min-width: 100%;
+  min-height: 80%;
+  border: 1px solid teal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding:120px 40px;
+  border-radius: 10px;
+}
+.login_inpt{
+  text-align: center;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.login_inpt:focus{
+outline: none;
+}
+.login_inpt::placeholder{
+  text-align: center;
+}
+.login_btn{
+  height: 40px;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(44, 128, 223);
+  cursor: pointer;
+}

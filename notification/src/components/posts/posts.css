@@ -1,0 +1,28 @@
+.toppost{
+    display: flex;
+    align-items: center;
+}
+.userImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.fullname{
+    display: inline;
+}
+.postImg{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+.bottompost{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    cursor: pointer;
+}
+.icon_red{
+    color: red;
+}

@@ -1,0 +1,62 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(84, 224, 224);
+    position: relative;
+}
+.app_name{
+    font-size: 22px;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(4, 125, 125);
+    width: 350px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    color: white;
+}
+.icon{
+    display: inline;
+    margin: 5px;
+    position: relative;
+}
+.counter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 25, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -3px;
+}
+.notification{
+    position: absolute;
+    min-width: 150px;
+    top: 70px;
+    right:0;
+    border: 1px solid rgba(128, 128, 128, 0.674);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 8px;
+    padding-top: 20px;
+    background-color: white;
+    
+}
+.mark_as_read{
+    align-self: flex-end;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: x-small;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
